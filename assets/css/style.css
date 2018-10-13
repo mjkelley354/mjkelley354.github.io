@@ -1,0 +1,103 @@
+body {
+    color: #777777;
+    background-image: url( https://www.toptal.com/designers/subtlepatterns/patterns/qbkls.png );
+    background-repeat: repeat;
+    text-align: left;
+}
+.bkground{
+    background-color: #ffffff;
+}
+.main-body {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    overflow: auto;
+    margin: 0 auto;
+}
+.nav-link {
+    color: #777777;
+}
+.bio-nav-name {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 200px;
+    text-align: center;
+    font-size: x-large;
+}
+.about-me {
+    color: #4aaaa5;
+    font-size: x-large;
+    font-weight: bold;
+}
+.spacer-div {
+    height: 20px;
+}
+.me-pic {
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.footer {
+    background-color: #666666;
+    color: #ffffff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0 auto;
+    border-top: 8px solid #4aaaa5;
+    font-size: x-small;
+}
+.btn-color {
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+.port-item {
+    margin: 10px;
+}
+.main-section {
+    float: left;
+    width: 100%;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+}
+.work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px;
+    overflow: auto;
+}
+h3 {
+    margin-bottom: 20px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #4aaaa5;
+    font-size: 22px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    border-bottom: 2px solid #eee;
+}
+.work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+}
+.work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+}

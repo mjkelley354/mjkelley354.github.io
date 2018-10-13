@@ -1,10 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Example Page</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>About Mike Kelley</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-    <h1 id="header">Hey it's a webpage!</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bkground">
+        <div class="container">
+            <div class="navbar-brand bio-nav-name">Michael Kelley</div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end bkground" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item" >
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                 </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="spacer-div"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 bkground">
+                    <h1 class="about-me">About Me</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 bkground">
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 main-body">
+                    <img class="rounded float-left me-pic" src="assets/images/me.jpeg">
+
+                    <p>The picture here looks very serious but I'm actually a friendly guy.  I'm at coding boot
+                        camp because I want to learn coding.  I know some vb, Java and SQL but there's a lot I
+                        don't know too.  I work in a software development environment already but I'm not a
+                        developer.  I've been a Technical Product Owner for a couple of years now and I direct
+                        my teams to build a product but there's a lot about what they do that I just don't
+                        understand.  </p>
+
+                    <p>So I'm here to get a better understanding of what it takes to make the software products
+                        we sell.  Also because my teams are actually offshore resources that aren't directly
+                        employed by my company, I don't always feel that I can hold the engineers accountable.
+                        I really just have to go with what they say.</p>
+
+                    <p>More recently, I've changed roles at work again.  I'm now working in Product Management for
+                        the same application and software solutions.  This gets me even further from the coding
+                        effort but I still want to know how it works.  What that knowledge will get me will, I
+                        hope help to ensure we build a better product and I'm hoping to be as involved in that
+                        as my employer will allow.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- when resized for mobile, content is hidden behind sticky footer without some spacing -->
+    <div class="spacer-div"></div>
+    <div class="spacer-div"></div>
+    <div class="spacer-div"></div>
+    
+    <footer class="footer">
+        <div class="container">
+            <span>Copyright @</span>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
 </body>
 </html>
